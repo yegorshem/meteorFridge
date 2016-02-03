@@ -79,7 +79,18 @@ if (Meteor.isServer) {
             img: '/juice.png',
             place: 'supermarket'
         });
-        
+
+        Products.insert({
+            name: 'Chicken',
+            img: '/chicken.jpg',
+            place: 'fridge'
+        });
+
+        Products.insert({
+            name: 'Pineapple',
+            img: '/pineapple.jpg',
+            place: 'supermarket'
+        });
     });
 
 
